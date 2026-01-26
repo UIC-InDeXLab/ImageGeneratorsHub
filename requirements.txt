@@ -9,8 +9,8 @@ aiohttp
 requests
 
 torch
-diffusers[torch]
-transformers
+diffusers[torch]>=0.25.0,<0.37.0
+transformers>=4.36.0,<5.0.0
 accelerate
 torchvision
 torchaudio
